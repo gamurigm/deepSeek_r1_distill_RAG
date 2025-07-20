@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv_windows/
+ENV/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Database
+chroma_db/
+*.db
+*.sqlite3
+
+# Gradio
+.gradio/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ollama models (too large for git)
+ollama_models/
+
+# Data files - ignore PDF files but keep directory structure
+data/*.pdf
+data/**/*.pdf
+
+# Keep the data directory but ignore its contents except for README
+!data/README.md
